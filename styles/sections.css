@@ -1,0 +1,92 @@
+#projects {
+  padding-top: 72px;
+  padding-inline: 120px;
+  padding-bottom: 144px;
+  background-color: var(--color-gray-200);
+
+  align-items: center;
+
+  header {
+    width: 1040px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grid-project {
+    width: 1040px;
+    
+    .project {
+      width: 330px;
+      height: 280px;
+      padding: 12px;
+      background-color: var(--color-gray-300);
+      border-radius: 12px;
+
+      img {
+        border-radius: 8px;
+      };
+    }
+  }
+}
+
+#services {
+  padding-top: 88px;
+  padding-inline: 120px;
+  padding-bottom: 120px;
+  background-color: var(--color-gray-100);
+
+  align-items: center;
+
+  header {
+    width: 1040px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grid-services {
+
+    .service {
+      padding: 20px;
+      width: 280px;
+      border: solid 2px var(--color-gray-200);
+      border-radius: 12px;
+
+      img {
+        width: 48px;
+        height: 48px;
+      }
+
+    }
+  }
+}
+
+#contact {
+  padding-top: 128px;
+  padding-inline: 120px;
+  padding-bottom: 200px;
+  background-image: var(--bg-contact);
+  background-size: cover;
+  align-items: center;
+
+  header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .links {
+    align-items: center;
+    .link {
+      width: 400px;
+      padding: 20px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--color-gray-300);
+      border-radius: 8px;
+
+      div {
+        align-items: center;
+      }
+    }
+  }
+
+}

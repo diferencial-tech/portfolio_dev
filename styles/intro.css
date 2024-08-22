@@ -1,0 +1,37 @@
+.intro {
+  background-image: var(--bg-intro);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  align-items: center;
+
+  .info {
+    width: 1040px;
+    align-items: center;
+    margin-top: 120px;
+
+    header {
+      align-items: center;
+      text-align: center;
+      width: 680px;
+
+      img {
+        width: 112px;
+        height: 112px;
+      }
+    }
+
+    .tags {
+
+      .tag  {
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        padding-inline: 16px;
+        padding-block: 8px;
+        background-color: var(--color-gray-300);
+        border-radius: 24px;
+      }
+    }
+  }
+}
